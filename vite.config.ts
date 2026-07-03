@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 // 사용자 리포명이 다르면 이 값을 수정하세요.
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_PAGES === 'true' ? '/jobseek/' : '/',
+  base: process.env.GITHUB_PAGES === 'true' ? '/Jobseek/' : '/',
 });

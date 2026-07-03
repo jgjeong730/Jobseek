@@ -33,8 +33,8 @@ async function main() {
   const expired = unique.length - active.length;
   if (expired > 0) console.log(`마감 공고 제외: ${expired}건 → ${active.length}건 남음`);
 
-  // 3. 채점
-  const scored = await scoreJobs(active);
+  // 3. 채점 (규칙 기반, API 불필요)
+  const scored = scoreJobs(active);
   console.log(`채점 완료: ${scored.length}건`);
 
   // 4. 점수 내림차순 정렬

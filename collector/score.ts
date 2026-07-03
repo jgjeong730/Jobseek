@@ -1,142 +1,147 @@
 /**
- * Claude API를 이용한 채용공고 적합도 채점.
- * ANTHROPIC_API_KEY는 반드시 환경변수로 주입 — 코드에 하드코딩 금지.
- * 모델: claude-sonnet-4-6 (CLAUDE.md 명시)
+ * 규칙 기반 채점 — Claude API 불필요, 완전 무료.
+ * CLAUDE.md 채점 기준을 TypeScript 로직으로 직접 구현.
+ *
+ * 직무 적합도 35 / 경력 요건 매칭 20 / 기술스택 겹침 25 / 영어 활용 10 / 지역 10
+ * Salesforce CS 직무 -30 페널티
  */
-import Anthropic from '@anthropic-ai/sdk';
-import { sleep } from './utils.js';
 import type { RawJob, Job } from './types.js';
 
-const BATCH_SIZE = 8;
-const BATCH_DELAY_MS = 3000;
+// 시헌 보유 기술스택 (소문자, 공백 제거 정규화 후 비교)
+const MY_STACK = [
+  'python', 'r', 'sql', 'machinelearning', 'ml', 'deeplearning', 'dl',
+  'tensorflow', 'pytorch', 'keras', 'scikitlearn', 'xgboost',
+  'pandas', 'numpy', 'matplotlib', 'seaborn',
+  'tableau', 'powerbi', 'excel', 'looker',
+  '데이터시각화', '시각화',
+];
 
-const SYSTEM_PROMPT = `당신은 구직자 시헌(Siheon)의 채용공고 적합도를 채점하는 전문 HR 분석가입니다.
+// ── 직무 적합도 (35점) ───────────────────────────────────
+const JOB_TIERS: { score: number; label: string; re: RegExp }[] = [
+  {
+    score: 35,
+    label: 'DS/ML 핵심 직무',
+    re: /데이터\s*사이언티스트|data\s*scientist|ml\s*엔지니어|ml\s*engineer|머신\s*러닝|machine\s*learning|딥\s*러닝|deep\s*learning|ai\s*엔지니어|ai\s*engineer|llm|생성형\s*ai|generative\s*ai/i,
+  },
+  {
+    score: 25,
+    label: '데이터 분석/엔지니어',
+    re: /데이터\s*분석|data\s*anal|비즈니스\s*분석|데이터\s*엔지니어|data\s*engineer|bi\s*analyst|analytics|etl|데이터\s*파이프|spark|airflow|mlops/i,
+  },
+  {
+    score: 15,
+    label: '백엔드/SW 개발',
+    re: /백엔드|back.?end|서버\s*개발|software\s*engineer|sw\s*개발|웹\s*개발|풀스택|full.?stack|django|fastapi|spring|node\.?js/i,
+  },
+];
 
-[지원자 프로필]
-- 학력: Pennsylvania State University, Computational Data Science in Engineering (B.S., 2024), 수학 부전공
-- 언어: 한국어 원어민, 영어 유창
-- 기술: Python, R, SQL, Machine/Deep Learning, 데이터 시각화, Excel
-- 현재: 메가존클라우드 (Salesforce 서비스팀, 약 10개월차)
-- 경력 수준: 신입 ~ 주니어(1~2년차)
-- 근무 희망지: 수도권(서울/경기)
-
-[희망 직무 우선순위]
-1. 데이터 사이언티스트 / ML 엔지니어
-2. 데이터 분석가 / 데이터 엔지니어
-3. 백엔드 · SW 개발 (주니어)
-
-[채점 기준 합계 100점]
-- 직무 적합도 35점: 1순위=35, 2순위=25, 3순위=15, 무관=0
-- 경력 요건 매칭 20점: 신입/0~2년=20, 3년=12, 4년=5, 5년+=0
-- 기술스택 겹침 25점: Python/R/SQL/ML/DL 스택이 많이 겹칠수록 고점
-- 영어 활용 가점 10점: 영어 사용 글로벌/외국계 기업이면 최대 10점
-- 지역 10점: 서울/경기=10, 기타 수도권=6, 비수도권=0
-
-[페널티 및 플래그]
-- Salesforce 순수 운영·CS 직무: 총점에서 -30점 감산, flags에 "salesforce_cs" 추가
-- 5년+ 경력 필수: flags에 "senior_required" 추가
-- 데이터/개발 무관 영업·마케팅: flags에 "non_tech" 추가
-- 영어 필요 직무: flags에 "english_plus" 추가 (페널티 아님, 단순 표시)
-
-[응답 형식]
-반드시 아래 JSON 형식으로만 응답하세요. 다른 텍스트 없이 JSON만 출력하세요.
-{
-  "results": [
-    {
-      "id": "<공고 ID 그대로>",
-      "score": <0~100 정수>,
-      "reason": "<한국어 2문장 이내 채점 이유>",
-      "flags": ["<해당 플래그 배열>"]
-    }
-  ]
-}`;
-
-interface ScoreResult {
-  id: string;
-  score: number;
-  reason: string;
-  flags: string[];
-}
-
-interface BatchResponse {
-  results: ScoreResult[];
-}
-
-function buildJobText(job: RawJob): string {
-  return [
-    `ID: ${job.id}`,
-    `직무: ${job.title}`,
-    `회사: ${job.company}`,
-    `위치: ${job.location}`,
-    `경력 요건: ${job.experience}`,
-    `기술스택: ${job.stack.join(', ') || '미기재'}`,
-    `플랫폼: ${job.source}`,
-  ].join('\n');
-}
-
-function clampScore(raw: number): number {
-  return Math.max(0, Math.min(100, Math.round(raw)));
-}
-
-export async function scoreJobs(rawJobs: RawJob[]): Promise<Job[]> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    throw new Error('ANTHROPIC_API_KEY 환경변수가 설정되지 않았습니다.');
+function calcJobScore(job: RawJob): { score: number; label: string } {
+  const text = `${job.title} ${job.stack.join(' ')}`;
+  for (const tier of JOB_TIERS) {
+    if (tier.re.test(text)) return { score: tier.score, label: tier.label };
   }
+  return { score: 0, label: '직무 미매칭' };
+}
 
-  const client = new Anthropic({ apiKey });
-  const scored: Job[] = [];
-  const total = rawJobs.length;
+// ── 경력 요건 (20점) ─────────────────────────────────────
+function calcExpScore(exp: string): { score: number; label: string } {
+  const e = exp.replace(/\s/g, '').toLowerCase();
+  if (/신입|무관|경력무관|0년|entry|junior/.test(e)) return { score: 20, label: '신입/무관' };
+  if (/[12]년이하|0[~-][12]|1[~-]2/.test(e)) return { score: 20, label: '1~2년' };
+  if (/3년/.test(e)) return { score: 12, label: '3년' };
+  if (/4년/.test(e)) return { score: 5, label: '4년' };
+  if (/[5-9]년|10년|시니어|senior/.test(e)) return { score: 0, label: '5년+' };
+  return { score: 14, label: '불명확' };
+}
 
-  for (let i = 0; i < rawJobs.length; i += BATCH_SIZE) {
-    const batch = rawJobs.slice(i, i + BATCH_SIZE);
-    const end = Math.min(i + BATCH_SIZE, total);
-    console.log(`[score] 채점 중 ${i + 1}~${end} / ${total}건…`);
-
-    const jobsText = batch.map(buildJobText).join('\n\n---\n\n');
-    const userMessage = `다음 ${batch.length}개 채용공고를 채점해주세요:\n\n${jobsText}`;
-
-    let resultMap = new Map<string, ScoreResult>();
-    try {
-      const response = await client.messages.create({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 2048,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: userMessage }],
-      });
-
-      const textBlock = response.content.find((b) => b.type === 'text');
-      if (textBlock && textBlock.type === 'text') {
-        const text = textBlock.text.trim();
-        // JSON 블록만 추출 (코드펜스가 있으면 제거)
-        const jsonMatch = text.match(/\{[\s\S]*\}/);
-        if (jsonMatch) {
-          const parsed = JSON.parse(jsonMatch[0]) as BatchResponse;
-          resultMap = new Map(parsed.results.map((r) => [r.id, r]));
-        }
-      }
-    } catch (e) {
-      console.warn(`[score] 배치 ${i}~${end} 채점 실패:`, e);
-    }
-
-    for (const rawJob of batch) {
-      const result = resultMap.get(rawJob.id);
-      if (!result) {
-        scored.push({ ...rawJob, score: 50, reason: '자동 채점 실패', flags: [] });
-        continue;
-      }
-      scored.push({
-        ...rawJob,
-        score: clampScore(result.score),
-        reason: result.reason,
-        flags: result.flags,
-      });
-    }
-
-    if (i + BATCH_SIZE < rawJobs.length) {
-      await sleep(BATCH_DELAY_MS);
-    }
+// ── 기술스택 겹침 (25점) ─────────────────────────────────
+function calcStackScore(stack: string[]): { score: number; count: number } {
+  if (stack.length === 0) return { score: 2, count: 0 };
+  const norm = (s: string) => s.toLowerCase().replace(/[\s.\-_+#]/g, '');
+  const jobNorm = stack.map(norm);
+  let count = 0;
+  for (const mine of MY_STACK) {
+    const m = norm(mine);
+    if (jobNorm.some((j) => j.includes(m) || m.includes(j))) count++;
   }
+  const score = count >= 4 ? 25 : count >= 2 ? 18 : count >= 1 ? 10 : 2;
+  return { score, count };
+}
 
-  return scored;
+// ── 영어 활용 가점 (10점) ────────────────────────────────
+function calcEngScore(job: RawJob): { score: number; flag: boolean } {
+  if (job.source === 'linkedin' || job.source === 'peoplenjob') return { score: 10, flag: true };
+  const text = `${job.title} ${job.company}`.toLowerCase();
+  if (/영어|english|글로벌|global|외국계|international|multinational/.test(text))
+    return { score: 8, flag: true };
+  return { score: 0, flag: false };
+}
+
+// ── 지역 (10점) ──────────────────────────────────────────
+function calcLocScore(location: string): number {
+  const l = location.toLowerCase();
+  if (/서울|seoul|강남|종로|여의도|판교|성남|분당|수원|광교|용인|인천|경기/.test(l)) return 10;
+  if (/수도권|재택|remote/.test(l)) return 8;
+  return 0;
+}
+
+// ── 플래그 ───────────────────────────────────────────────
+function detectFlags(job: RawJob, engFlag: boolean): string[] {
+  const flags: string[] = [];
+  const all = `${job.title} ${job.experience} ${job.company} ${job.stack.join(' ')}`.toLowerCase();
+
+  if (/salesforce/.test(all) && /운영|cs\b|고객|지원|support|어드민|admin/.test(all))
+    flags.push('salesforce_cs');
+
+  if (/[5-9]년|10년|시니어|senior/.test(job.experience.toLowerCase()))
+    flags.push('senior_required');
+
+  if (/^(영업|마케팅|sales|marketing)/i.test(job.title) &&
+      !/데이터|분석|개발|엔지니어|analyst|engineer/.test(job.title.toLowerCase()))
+    flags.push('non_tech');
+
+  if (engFlag) flags.push('english_plus');
+
+  return flags;
+}
+
+// ── 이유 생성 ────────────────────────────────────────────
+function buildReason(
+  jobLabel: string,
+  expLabel: string,
+  stackCount: number,
+  engFlag: boolean,
+  flags: string[]
+): string {
+  const parts = [jobLabel];
+  if (stackCount >= 2) parts.push(`스택 ${stackCount}개 일치`);
+  else if (stackCount === 1) parts.push('스택 1개 일치');
+  else parts.push('스택 정보 부족');
+  parts.push(`경력 ${expLabel}`);
+  if (engFlag) parts.push('영어 가점');
+  if (flags.includes('salesforce_cs')) parts.push('SF CS 감점(-30)');
+  return parts.join(' · ');
+}
+
+// ── 메인 채점 함수 (동기, API 불필요) ───────────────────
+export function scoreJobs(rawJobs: RawJob[]): Job[] {
+  return rawJobs.map((job) => {
+    const j = calcJobScore(job);
+    const e = calcExpScore(job.experience);
+    const s = calcStackScore(job.stack);
+    const eng = calcEngScore(job);
+    const loc = calcLocScore(job.location);
+    const flags = detectFlags(job, eng.flag);
+
+    let total = j.score + e.score + s.score + eng.score + loc;
+    if (flags.includes('salesforce_cs')) total -= 30;
+    total = Math.max(0, Math.min(100, total));
+
+    return {
+      ...job,
+      score: total,
+      reason: buildReason(j.label, e.label, s.count, eng.flag, flags),
+      flags,
+    };
+  });
 }

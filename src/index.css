@@ -1,0 +1,84 @@
+/* ===== 디자인 토큰 (다크모드 기본, Linear/Vercel 계열 미니멀) ===== */
+:root {
+  /* 색상 */
+  --bg: #0a0a0b;
+  --bg-elevated: #131316;
+  --bg-card: #17171b;
+  --bg-card-hover: #1d1d22;
+  --border: #26262c;
+  --border-strong: #35353d;
+
+  --text: #ededf0;
+  --text-secondary: #a1a1aa;
+  --text-muted: #6b6b74;
+
+  --accent: #6366f1;
+  --accent-hover: #7c7ff5;
+
+  /* 점수 배지 색 */
+  --score-high: #22c55e;
+  --score-mid: #eab308;
+  --score-low: #71717a;
+  --penalty: #ef4444;
+
+  /* 간격 (여백 넉넉히) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+
+  --font-sans:
+    'Pretendard Variable', Pretendard, 'Inter', -apple-system,
+    BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: var(--radius-pill);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -1,0 +1,266 @@
+.app {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-8);
+}
+
+/* ===== 헤더 ===== */
+.app__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-6);
+}
+
+.app__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.app__logo {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.app__title h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.app__subtitle {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-top: 2px;
+}
+
+.app__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.app__updated {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+/* ===== 리스트 ===== */
+.app__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.app__footer {
+  margin-top: var(--space-6);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.state {
+  padding: var(--space-6);
+  text-align: center;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: var(--space-4);
+}
+.state--error {
+  color: var(--penalty);
+  border-color: var(--penalty);
+}
+
+/* ===== 카드 ===== */
+.card {
+  display: flex;
+  gap: var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-strong);
+}
+
+.card__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.card__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.card__source {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-hover);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.card__title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--space-3);
+}
+
+.card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-3);
+}
+.card__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px 9px;
+}
+
+.card__reason {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.card__side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+/* ===== 점수 배지 ===== */
+.score-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 2px solid;
+  border-radius: var(--radius);
+}
+.score-badge__num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'Inter', var(--font-sans);
+  line-height: 1;
+}
+.score-badge__label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
+/* ===== 칩 / 버튼 ===== */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
+  padding: 2px 8px;
+}
+.chip--english {
+  color: var(--score-high);
+  background: color-mix(in srgb, var(--score-high) 14%, transparent);
+}
+.chip--penalty {
+  color: var(--penalty);
+  background: color-mix(in srgb, var(--penalty) 14%, transparent);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  background: transparent;
+  color: var(--text);
+  white-space: nowrap;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    opacity 0.15s ease;
+}
+.btn:hover {
+  background: var(--bg-elevated);
+  border-color: var(--accent);
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.btn--primary {
+  width: 100%;
+}
+.btn--ghost {
+  color: var(--text-secondary);
+}
+
+/* ===== 애니메이션 / 반응형 ===== */
+.spin {
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    flex-direction: column;
+  }
+  .card__side {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .btn--primary {
+    width: auto;
+  }
+}

@@ -1,0 +1,23 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# 빌드 시 data/jobs.json 에서 복사 생성되는 정적 서빙본 (원본은 data/ 에서 버전관리)
+/public/data/
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+logs
+npm-debug.log*
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/

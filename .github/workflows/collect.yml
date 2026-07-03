@@ -1,10 +1,9 @@
-﻿name: Collect Jobs
+name: Collect Jobs
 
 on:
   schedule:
-    # 留ㅼ씪 KST 09:00 = UTC 00:00
     - cron: '0 0 * * *'
-  workflow_dispatch: # ?섎룞 ?몃━嫄??덉슜
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -40,7 +39,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/jobs.json
           if git diff --cached --quiet; then
-            echo "蹂寃쎈맂 怨듦퀬 ?놁쓬, 而ㅻ컠 ?ㅽ궢"
+            echo "No changes, skipping commit"
           else
             git commit -m "chore: update jobs.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push

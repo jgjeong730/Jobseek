@@ -1,24 +1,33 @@
 /**
  * 플랫폼별 채용공고 수집.
  *
- * 원티드·점핏·프로그래머스: 각 플랫폼의 내부 JSON API 직접 호출 (Playwright 불필요).
+ * 원티드·점핏·프로그래머스: 내부 JSON API (Playwright 불필요).
+ * 잡코리아·사람인·피플앤잡·링크드인·로켓펀치: Playwright 헤드리스 (ENABLE_PLAYWRIGHT 시 활성화).
  * 실패 시 해당 플랫폼 결과를 빈 배열로 처리하고 계속 진행.
- *
- * robots.txt 존중:
- *  - 원티드: /api/* 크롤 금지 명시 없음 (2024 robots.txt 기준)
- *  - 점핏: /api/* 비명시
- *  - 프로그래머스: 공개 페이지 기반
- * 요청 간 딜레이 2~3초 적용.
  */
 
 import { politeDelay, extractStack, today } from './utils.js';
 import type { RawJob } from './types.js';
 
+// 데이터/ML/개발 직무 기본 키워드
 const KEYWORDS = [
   '데이터 사이언티스트',
   '데이터 분석',
   'ML 엔지니어',
   '데이터 엔지니어',
+  '머신러닝',
+  '백엔드 개발자',
+];
+
+// 대기업·공채 특화 키워드 (원티드·점핏·프로그래머스에만 추가 적용)
+const BIGCO_KEYWORDS = [
+  '신입 공채',
+  '데이터 공채',
+  '네이버 데이터',
+  '카카오 데이터',
+  '쿠팡 데이터',
+  '라인 데이터',
+  '토스 데이터',
 ];
 
 // ───────────────────────────────────────────
@@ -33,7 +42,7 @@ async function fetchWanted(): Promise<RawJob[]> {
     'Wanted-Client-Id': 'undefined',
   };
 
-  for (const kw of KEYWORDS) {
+  for (const kw of [...KEYWORDS, ...BIGCO_KEYWORDS]) {
     try {
       const url = `https://www.wanted.co.kr/api/v4/jobs?country=kr&job_sort=job.latest_order&limit=20&tag_type_ids=&years=-1&query=${encodeURIComponent(kw)}`;
       const res = await fetch(url, { headers });
@@ -46,6 +55,7 @@ async function fetchWanted(): Promise<RawJob[]> {
           address: { location: string };
           experience_level: { display: string };
           skill_tags: { title: string }[];
+          due_time?: string;
         }[];
       };
       for (const item of data.data ?? []) {
@@ -59,6 +69,7 @@ async function fetchWanted(): Promise<RawJob[]> {
           stack: item.skill_tags?.map((t) => t.title) ?? [],
           url: `https://www.wanted.co.kr/wd/${item.id}`,
           postedAt: today(),
+          deadline: item.due_time ? item.due_time.slice(0, 10) : undefined,
         });
       }
     } catch (e) {
@@ -81,7 +92,7 @@ async function fetchJumpit(): Promise<RawJob[]> {
     Referer: 'https://www.jumpit.co.kr/',
   };
 
-  for (const kw of KEYWORDS) {
+  for (const kw of [...KEYWORDS, ...BIGCO_KEYWORDS]) {
     try {
       const url = `https://api.jumpit.co.kr/api/positions?sort=reg_dt&keyword=${encodeURIComponent(kw)}&page=1`;
       const res = await fetch(url, { headers });
@@ -95,6 +106,7 @@ async function fetchJumpit(): Promise<RawJob[]> {
             locations: string[];
             career: string;
             techStacks: string[];
+            closedAt?: string;
           }[];
         };
       };
@@ -109,6 +121,7 @@ async function fetchJumpit(): Promise<RawJob[]> {
           stack: item.techStacks ?? [],
           url: `https://www.jumpit.co.kr/position/${item.id}`,
           postedAt: today(),
+          deadline: item.closedAt ? item.closedAt.slice(0, 10) : undefined,
         });
       }
     } catch (e) {
@@ -130,7 +143,7 @@ async function fetchProgrammers(): Promise<RawJob[]> {
     Accept: 'application/json',
   };
 
-  for (const kw of KEYWORDS) {
+  for (const kw of [...KEYWORDS, ...BIGCO_KEYWORDS]) {
     try {
       const url = `https://career.programmers.co.kr/api/job_positions?order=recent&page=1&per_page=20&q=${encodeURIComponent(kw)}`;
       const res = await fetch(url, { headers });
@@ -143,7 +156,7 @@ async function fetchProgrammers(): Promise<RawJob[]> {
           cities: string[];
           careerRange: string;
           technicalTags: string[];
-          jobCategories: string[];
+          closedAt?: string;
         }[];
       };
       for (const item of data.jobPositions ?? []) {
@@ -158,6 +171,7 @@ async function fetchProgrammers(): Promise<RawJob[]> {
           stack: stackFromTags.length ? stackFromTags : extractStack(item.name),
           url: `https://career.programmers.co.kr/job_positions/${item.id}`,
           postedAt: today(),
+          deadline: item.closedAt ? item.closedAt.slice(0, 10) : undefined,
         });
       }
     } catch (e) {
@@ -169,49 +183,66 @@ async function fetchProgrammers(): Promise<RawJob[]> {
 }
 
 // ───────────────────────────────────────────
-// 사람인 공개 채용공고 검색 (HTML 기반 → Playwright 사용)
-// 사람인은 API 계약 없이 사용 가능한 공개 엔드포인트가 없어
-// Playwright 헤드리스로 폴백. 기본은 스킵 처리 후 Actions에서 활성화.
+// Playwright 기반 플랫폼들 (ENABLE_PLAYWRIGHT 필요)
 // ───────────────────────────────────────────
-async function fetchSaramin(): Promise<RawJob[]> {
-  // Playwright 의존 — Actions 환경에서만 실행
+async function fetchPlaywright(
+  label: string,
+  importPath: string,
+  exportName: string
+): Promise<RawJob[]> {
   if (!process.env.ENABLE_PLAYWRIGHT) {
-    console.log('[saramin] ENABLE_PLAYWRIGHT 미설정, 스킵');
+    console.log(`[${label}] ENABLE_PLAYWRIGHT 미설정, 스킵`);
     return [];
   }
   try {
-    const { fetchSaraminPlaywright } = await import('./playwright/saramin.js');
-    return fetchSaraminPlaywright();
+    const mod = await import(importPath);
+    return (mod[exportName] as () => Promise<RawJob[]>)();
   } catch (e) {
-    console.warn('[saramin] Playwright 수집 실패:', e);
+    console.warn(`[${label}] Playwright 수집 실패:`, e);
     return [];
   }
 }
 
+const fetchSaramin = () =>
+  fetchPlaywright('saramin', './playwright/saramin.js', 'fetchSaraminPlaywright');
+
+const fetchJobKorea = () =>
+  fetchPlaywright('jobkorea', './playwright/jobkorea.js', 'fetchJobKoreaPlaywright');
+
+const fetchPeopleNJob = () =>
+  fetchPlaywright('peoplenjob', './playwright/peoplenjob.js', 'fetchPeopleNJobPlaywright');
+
+const fetchLinkedIn = () =>
+  fetchPlaywright('linkedin', './playwright/linkedin.js', 'fetchLinkedInPlaywright');
+
+const fetchRocketpunch = () =>
+  fetchPlaywright('rocketpunch', './playwright/rocketpunch.js', 'fetchRocketpunchPlaywright');
+
 // ───────────────────────────────────────────
 // 통합 진입점
 // ───────────────────────────────────────────
+const SOURCES = [
+  { label: 'wanted',      fn: fetchWanted },
+  { label: 'jumpit',      fn: fetchJumpit },
+  { label: 'programmers', fn: fetchProgrammers },
+  { label: 'saramin',     fn: fetchSaramin },
+  { label: 'jobkorea',    fn: fetchJobKorea },
+  { label: 'peoplenjob',  fn: fetchPeopleNJob },
+  { label: 'linkedin',    fn: fetchLinkedIn },
+  { label: 'rocketpunch', fn: fetchRocketpunch },
+] as const;
+
 export async function fetchAllJobs(): Promise<RawJob[]> {
   console.log('수집 시작…');
-  const [wanted, jumpit, programmers, saramin] = await Promise.allSettled([
-    fetchWanted(),
-    fetchJumpit(),
-    fetchProgrammers(),
-    fetchSaramin(),
-  ]);
-
+  const settled = await Promise.allSettled(SOURCES.map((s) => s.fn()));
   const results: RawJob[] = [];
-  for (const [label, r] of [
-    ['wanted', wanted],
-    ['jumpit', jumpit],
-    ['programmers', programmers],
-    ['saramin', saramin],
-  ] as const) {
+  for (let i = 0; i < SOURCES.length; i++) {
+    const r = settled[i];
     if (r.status === 'fulfilled') {
-      console.log(`[${label}] ${r.value.length}건 수집`);
+      console.log(`[${SOURCES[i].label}] ${r.value.length}건 수집`);
       results.push(...r.value);
     } else {
-      console.warn(`[${label}] 실패:`, r.reason);
+      console.warn(`[${SOURCES[i].label}] 실패:`, r.reason);
     }
   }
   console.log(`수집 완료: 총 ${results.length}건 (중복 제거 전)`);

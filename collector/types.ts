@@ -9,6 +9,7 @@ export interface RawJob {
   stack: string[];
   url: string;
   postedAt: string;
+  deadline?: string; // ISO date "YYYY-MM-DD", 없으면 상시 모집으로 간주
 }
 
 // RawJob + 채점 결과 필드

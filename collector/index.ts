@@ -27,8 +27,14 @@ async function main() {
   const unique = dedupe(raw);
   console.log(`중복 제거: ${raw.length}건 → ${unique.length}건`);
 
+  // 2-1. 마감된 공고 제외
+  const today = new Date().toISOString().slice(0, 10);
+  const active = unique.filter((j) => !j.deadline || j.deadline >= today);
+  const expired = unique.length - active.length;
+  if (expired > 0) console.log(`마감 공고 제외: ${expired}건 → ${active.length}건 남음`);
+
   // 3. 채점
-  const scored = await scoreJobs(unique);
+  const scored = await scoreJobs(active);
   console.log(`채점 완료: ${scored.length}건`);
 
   // 4. 점수 내림차순 정렬

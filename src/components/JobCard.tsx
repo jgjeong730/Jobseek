@@ -5,6 +5,7 @@ import {
   ExternalLink,
   Languages,
   AlertTriangle,
+  Clock,
 } from 'lucide-react';
 import type { Job } from '../lib/types';
 import { SOURCE_LABELS } from '../lib/jobs';
@@ -51,6 +52,11 @@ export default function JobCard({ job }: Props) {
           <span>
             <Briefcase size={14} /> {job.experience}
           </span>
+          {job.deadline && (
+            <span>
+              <Clock size={14} /> ~{job.deadline}
+            </span>
+          )}
         </div>
 
         {job.stack.length > 0 && (

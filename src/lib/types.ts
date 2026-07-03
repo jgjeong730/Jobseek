@@ -7,7 +7,8 @@ export type JobSource =
   | 'jobkorea'
   | 'saramin'
   | 'linkedin'
-  | 'rocketpunch';
+  | 'rocketpunch'
+  | 'peoplenjob';
 
 export type JobFlag =
   | 'english_plus' // 영어 활용 가점
@@ -25,6 +26,7 @@ export interface Job {
   stack: string[]; // 기술 태그
   url: string; // 원문 링크
   postedAt: string; // 수집/게시일 ISO
+  deadline?: string; // 마감일 YYYY-MM-DD, 없으면 상시
   score: number; // 0-100 적합도
   reason: string; // 추천 이유 한 줄
   flags: (JobFlag | string)[];

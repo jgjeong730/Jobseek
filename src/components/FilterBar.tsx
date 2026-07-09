@@ -1,11 +1,17 @@
 import { SlidersHorizontal } from 'lucide-react';
 import type { JobCategory, JobSource } from '../lib/types';
-import { CATEGORY_LABELS, SOURCE_LABELS } from '../lib/jobs';
+import {
+  CATEGORY_LABELS,
+  SOURCE_LABELS,
+  EXPERIENCE_LABELS,
+  type ExperienceFilter,
+} from '../lib/jobs';
 
 export interface Filters {
   source: JobSource | string | 'all';
   minScore: number;
   category: JobCategory | 'all';
+  experience: ExperienceFilter;
 }
 
 interface Props {
@@ -22,6 +28,7 @@ const CATEGORIES: (JobCategory | 'all')[] = [
   'backend',
   'other',
 ];
+const EXPERIENCE_OPTIONS: ExperienceFilter[] = ['all', 'entry', 'any', 'experienced'];
 
 export default function FilterBar({ filters, availableSources, onChange }: Props) {
   function set<K extends keyof Filters>(key: K, val: Filters[K]) {
@@ -48,14 +55,14 @@ export default function FilterBar({ filters, availableSources, onChange }: Props
       </label>
 
       <label className="filterbar__group">
-        <span>최소 점수</span>
+        <span>경력</span>
         <select
-          value={filters.minScore}
-          onChange={(e) => set('minScore', Number(e.target.value))}
+          value={filters.experience}
+          onChange={(e) => set('experience', e.target.value as ExperienceFilter)}
         >
-          {SCORE_OPTIONS.map((v) => (
+          {EXPERIENCE_OPTIONS.map((v) => (
             <option key={v} value={v}>
-              {v === 0 ? '제한 없음' : `${v}점 이상`}
+              {EXPERIENCE_LABELS[v]}
             </option>
           ))}
         </select>
@@ -70,6 +77,20 @@ export default function FilterBar({ filters, availableSources, onChange }: Props
           {CATEGORIES.map((c) => (
             <option key={c} value={c}>
               {c === 'all' ? '전체' : CATEGORY_LABELS[c]}
+            </option>
+          ))}
+        </select>
+      </label>
+
+      <label className="filterbar__group">
+        <span>최소 점수</span>
+        <select
+          value={filters.minScore}
+          onChange={(e) => set('minScore', Number(e.target.value))}
+        >
+          {SCORE_OPTIONS.map((v) => (
+            <option key={v} value={v}>
+              {v === 0 ? '제한 없음' : `${v}점 이상`}
             </option>
           ))}
         </select>

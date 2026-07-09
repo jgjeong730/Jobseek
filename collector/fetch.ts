@@ -1,12 +1,12 @@
 /**
  * 플랫폼별 채용공고 수집.
  *
- * 원티드·점핏·프로그래머스: 내부 JSON API (Playwright 불필요).
- * 잡코리아·사람인·피플앤잡·링크드인·로켓펀치: Playwright 헤드리스 (ENABLE_PLAYWRIGHT 시 활성화).
+ * 원티드·점핏: 내부 JSON API.
+ * 프로그래머스·잡코리아·사람인·피플앤잡: Playwright 헤드리스 (ENABLE_PLAYWRIGHT 시 활성화).
  * 실패 시 해당 플랫폼 결과를 빈 배열로 처리하고 계속 진행.
  */
 
-import { politeDelay, extractStack, today } from './utils.js';
+import { politeDelay, today } from './utils.js';
 import type { RawJob } from './types.js';
 
 // 데이터/ML/개발 직무 기본 키워드
@@ -37,14 +37,15 @@ async function fetchWanted(): Promise<RawJob[]> {
   const jobs: RawJob[] = [];
   const headers = {
     'User-Agent':
-      'Mozilla/5.0 (compatible; SiheonJobFinder/1.0; +https://github.com/jgjeong730/jobseek)',
-    Accept: 'application/json',
-    'Wanted-Client-Id': 'undefined',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    Accept: 'application/json, text/plain, */*',
+    Referer: 'https://www.wanted.co.kr/',
+    Origin: 'https://www.wanted.co.kr',
   };
 
   for (const kw of [...KEYWORDS, ...BIGCO_KEYWORDS]) {
     try {
-      const url = `https://www.wanted.co.kr/api/v4/jobs?country=kr&job_sort=job.latest_order&limit=20&tag_type_ids=&years=-1&query=${encodeURIComponent(kw)}`;
+      const url = `https://www.wanted.co.kr/api/v4/jobs?country=kr&job_sort=job.latest_order&limit=20&query=${encodeURIComponent(kw)}`;
       const res = await fetch(url, { headers });
       if (!res.ok) continue;
       const data = (await res.json()) as {
@@ -132,55 +133,7 @@ async function fetchJumpit(): Promise<RawJob[]> {
   return jobs;
 }
 
-// ───────────────────────────────────────────
-// 프로그래머스 커리어 API
-// ───────────────────────────────────────────
-async function fetchProgrammers(): Promise<RawJob[]> {
-  const jobs: RawJob[] = [];
-  const headers = {
-    'User-Agent':
-      'Mozilla/5.0 (compatible; SiheonJobFinder/1.0; +https://github.com/jgjeong730/jobseek)',
-    Accept: 'application/json',
-  };
-
-  for (const kw of [...KEYWORDS, ...BIGCO_KEYWORDS]) {
-    try {
-      const url = `https://career.programmers.co.kr/api/job_positions?order=recent&page=1&per_page=20&q=${encodeURIComponent(kw)}`;
-      const res = await fetch(url, { headers });
-      if (!res.ok) continue;
-      const data = (await res.json()) as {
-        jobPositions?: {
-          id: number;
-          name: string;
-          company: { name: string };
-          cities: string[];
-          careerRange: string;
-          technicalTags: string[];
-          closedAt?: string;
-        }[];
-      };
-      for (const item of data.jobPositions ?? []) {
-        const stackFromTags = item.technicalTags ?? [];
-        jobs.push({
-          id: `programmers-${item.id}`,
-          source: 'programmers',
-          title: item.name,
-          company: item.company?.name ?? '',
-          location: item.cities?.[0] ?? '서울',
-          experience: item.careerRange ?? '경력 무관',
-          stack: stackFromTags.length ? stackFromTags : extractStack(item.name),
-          url: `https://career.programmers.co.kr/job_positions/${item.id}`,
-          postedAt: today(),
-          deadline: item.closedAt ? item.closedAt.slice(0, 10) : undefined,
-        });
-      }
-    } catch (e) {
-      console.warn(`[programmers] "${kw}" 수집 실패:`, e);
-    }
-    await politeDelay();
-  }
-  return jobs;
-}
+// 프로그래머스는 Actions IP에서 fetch가 차단되므로 Playwright로 처리
 
 // ───────────────────────────────────────────
 // Playwright 기반 플랫폼들 (ENABLE_PLAYWRIGHT 필요)
@@ -203,6 +156,9 @@ async function fetchPlaywright(
   }
 }
 
+const fetchProgrammers = () =>
+  fetchPlaywright('programmers', './playwright/programmers.js', 'fetchProgrammersPlaywright');
+
 const fetchSaramin = () =>
   fetchPlaywright('saramin', './playwright/saramin.js', 'fetchSaraminPlaywright');
 
@@ -224,7 +180,7 @@ const SOURCES = [
   { label: 'saramin',     fn: fetchSaramin },
   { label: 'jobkorea',    fn: fetchJobKorea },
   { label: 'peoplenjob',  fn: fetchPeopleNJob },
-] as const;
+] satisfies { label: string; fn: () => Promise<RawJob[]> }[];
 
 export async function fetchAllJobs(): Promise<RawJob[]> {
   console.log('수집 시작…');

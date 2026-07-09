@@ -44,4 +44,21 @@ export const SOURCE_LABELS: Record<string, string> = {
   saramin: '사람인',
   linkedin: '링크드인',
   rocketpunch: '로켓펀치',
+  peoplenjob: '피플앤잡',
 };
+
+export type ExperienceFilter = 'all' | 'entry' | 'any' | 'experienced';
+
+export const EXPERIENCE_LABELS: Record<ExperienceFilter, string> = {
+  all: '전체',
+  entry: '신입 포함',
+  any: '경력 무관',
+  experienced: '경력직만',
+};
+
+export function categorizeExperience(exp: string): 'entry' | 'any' | 'experienced' {
+  if (!exp) return 'any';
+  if (/무관|관계없|상관없/.test(exp)) return 'any';
+  if (/신입/.test(exp)) return 'entry';
+  return 'experienced';
+}

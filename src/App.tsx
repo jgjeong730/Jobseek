@@ -1,12 +1,17 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { RefreshCw, Sparkles } from 'lucide-react';
 import type { JobsFile } from './lib/types';
-import { categorize, loadJobs } from './lib/jobs';
+import { categorize, categorizeExperience, loadJobs } from './lib/jobs';
 import FilterBar, { type Filters } from './components/FilterBar';
 import JobCard from './components/JobCard';
 import './App.css';
 
-const DEFAULT_FILTERS: Filters = { source: 'all', minScore: 0, category: 'all' };
+const DEFAULT_FILTERS: Filters = {
+  source: 'all',
+  minScore: 0,
+  category: 'all',
+  experience: 'all',
+};
 
 export default function App() {
   const [data, setData] = useState<JobsFile | null>(null);
@@ -47,6 +52,12 @@ export default function App() {
       if (filters.source !== 'all' && job.source !== filters.source) return false;
       if (job.score < filters.minScore) return false;
       if (filters.category !== 'all' && categorize(job.title) !== filters.category) return false;
+      if (filters.experience !== 'all') {
+        const expCat = categorizeExperience(job.experience);
+        if (filters.experience === 'entry' && expCat !== 'entry') return false;
+        if (filters.experience === 'any' && expCat !== 'any') return false;
+        if (filters.experience === 'experienced' && expCat !== 'experienced') return false;
+      }
       return true;
     });
   }, [sorted, filters]);

@@ -18,8 +18,8 @@ export async function fetchSaraminPlaywright(): Promise<RawJob[]> {
       const page = await context.newPage();
       try {
         const url = `https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=${encodeURIComponent(kw)}&recruitPage=1&recruitPageCount=20`;
-        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForSelector('.item_recruit', { timeout: 8000 }).catch(() => null);
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 15000 });
+        await page.waitForSelector('.item_recruit', { timeout: 5000 }).catch(() => null);
 
         const items = await page.$$eval('.item_recruit', (els) =>
           els.map((el) => {

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { RefreshCw, DoorOpen } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import type { JobsFile } from './lib/types';
 import { categorize, categorizeExperience, loadJobs } from './lib/jobs';
 import FilterBar, { type Filters } from './components/FilterBar';
@@ -66,7 +66,7 @@ export default function App() {
     <div className="app">
       <header className="app__header">
         <div className="app__title">
-          <DoorOpen size={26} className="app__logo" />
+          <span className="app__logo" role="img" aria-label="탈출">🏃‍♂️</span>
           <div>
             <h1>탈출각</h1>
             <p className="app__subtitle">적합도순으로 추려드리는 시헌의 이직 레이더</p>

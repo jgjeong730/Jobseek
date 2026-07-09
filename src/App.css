@@ -21,9 +21,16 @@
 }
 
 .app__logo {
-  color: var(--accent);
+  font-size: 1.8rem;
   flex-shrink: 0;
-  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 40%, transparent));
+  line-height: 1;
+  display: inline-block;
+  animation: run 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes run {
+  from { transform: translateX(0) rotate(-5deg); }
+  to   { transform: translateX(4px) rotate(5deg); }
 }
 
 .app__title h1 {

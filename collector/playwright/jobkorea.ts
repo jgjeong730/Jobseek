@@ -26,7 +26,7 @@ export async function fetchJobKoreaPlaywright(): Promise<RawJob[]> {
       const page = await context.newPage();
       try {
         const url = `${BASE}/Search/?stext=${encodeURIComponent(kw)}&tabType=recruit&Page_No=1`;
-        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 15000 });
 
         // JobKorea is a Tailwind SPA — no semantic class names, use structural selectors
         await page

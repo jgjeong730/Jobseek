@@ -212,11 +212,7 @@ const fetchJobKorea = () =>
 const fetchPeopleNJob = () =>
   fetchPlaywright('peoplenjob', './playwright/peoplenjob.js', 'fetchPeopleNJobPlaywright');
 
-const fetchLinkedIn = () =>
-  fetchPlaywright('linkedin', './playwright/linkedin.js', 'fetchLinkedInPlaywright');
-
-const fetchRocketpunch = () =>
-  fetchPlaywright('rocketpunch', './playwright/rocketpunch.js', 'fetchRocketpunchPlaywright');
+// LinkedIn·Rocketpunch: 로그인 필수 — 항상 [] 반환하므로 수집 제외
 
 // ───────────────────────────────────────────
 // 통합 진입점
@@ -228,8 +224,6 @@ const SOURCES = [
   { label: 'saramin',     fn: fetchSaramin },
   { label: 'jobkorea',    fn: fetchJobKorea },
   { label: 'peoplenjob',  fn: fetchPeopleNJob },
-  { label: 'linkedin',    fn: fetchLinkedIn },
-  { label: 'rocketpunch', fn: fetchRocketpunch },
 ] as const;
 
 export async function fetchAllJobs(): Promise<RawJob[]> {

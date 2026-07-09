@@ -1,25 +1,25 @@
-/* ===== 디자인 토큰 (다크모드 기본, Linear/Vercel 계열 미니멀) ===== */
+/* ===== 디자인 토큰 (라이트모드, 미니멀) ===== */
 :root {
   /* 색상 */
-  --bg: #0a0a0b;
-  --bg-elevated: #131316;
-  --bg-card: #17171b;
-  --bg-card-hover: #1d1d22;
-  --border: #26262c;
-  --border-strong: #35353d;
+  --bg: #f8f8fb;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f3f3f8;
+  --border: #e4e4eb;
+  --border-strong: #c9c9d6;
 
-  --text: #ededf0;
-  --text-secondary: #a1a1aa;
-  --text-muted: #6b6b74;
+  --text: #111118;
+  --text-secondary: #52525e;
+  --text-muted: #9898a6;
 
   --accent: #6366f1;
-  --accent-hover: #7c7ff5;
+  --accent-hover: #4f52d8;
 
   /* 점수 배지 색 */
-  --score-high: #22c55e;
-  --score-mid: #eab308;
+  --score-high: #16a34a;
+  --score-mid: #ca8a04;
   --score-low: #71717a;
-  --penalty: #ef4444;
+  --penalty: #dc2626;
 
   /* 간격 (여백 넉넉히) */
   --space-1: 4px;
@@ -38,7 +38,7 @@
     'Pretendard Variable', Pretendard, 'Inter', -apple-system,
     BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
 
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -78,6 +78,7 @@ button {
 ::-webkit-scrollbar-thumb {
   background: var(--border-strong);
   border-radius: var(--radius-pill);
+  border: 2px solid var(--bg);
 }
 ::-webkit-scrollbar-track {
   background: transparent;

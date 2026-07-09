@@ -68,8 +68,8 @@ export default function App() {
         <div className="app__title">
           <Sparkles size={22} className="app__logo" />
           <div>
-            <h1>Siheon Job Finder</h1>
-            <p className="app__subtitle">시헌에게 맞는 채용공고를 적합도순으로 추천합니다</p>
+            <h1>탈출각</h1>
+            <p className="app__subtitle">적합도순으로 추려드리는 시헌의 이직 레이더</p>
           </div>
         </div>
         <div className="app__actions">

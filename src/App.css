@@ -23,6 +23,7 @@
 .app__logo {
   color: var(--accent);
   flex-shrink: 0;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 40%, transparent));
 }
 
 .app__title h1 {

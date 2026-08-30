@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T05:17:20.098Z",
+  "updatedAt": "2026-08-30T03:10:01.911Z",
   "jobs": [
     {
       "id": "jumpit-54883395",
@@ -14,7 +14,7 @@
         "AI/인공지능"
       ],
       "url": "https://www.jumpit.co.kr/position/54883395",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:29.973Z",
       "deadline": "2026-09-26",
       "score": 75,
       "reason": "DS/ML 핵심 직무 · 스택 1개 일치 · 경력 신입/무관",
@@ -33,7 +33,7 @@
         "PLC"
       ],
       "url": "https://www.jumpit.co.kr/position/54735305",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 70,
       "reason": "백엔드/SW 개발 · 스택 4개 일치 · 경력 신입/무관",
@@ -53,7 +53,7 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/54883421",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 65,
       "reason": "데이터 분석/엔지니어 · 스택 1개 일치 · 경력 신입/무관",
@@ -79,7 +79,7 @@
         "HALCON"
       ],
       "url": "https://www.jumpit.co.kr/position/54883779",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 60,
       "reason": "백엔드/SW 개발 · 스택 4개 일치 · 경력 신입/무관",
@@ -105,10 +105,69 @@
         "HALCON"
       ],
       "url": "https://www.jumpit.co.kr/position/54883792",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 60,
       "reason": "백엔드/SW 개발 · 스택 4개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-54880338",
+      "source": "jumpit",
+      "title": "로보어드바이저 IRP 시스템 개발/운영",
+      "company": "에이아이콴텍",
+      "location": "서울 영등포구",
+      "experience": "경력 무관",
+      "stack": [
+        "Java",
+        "MariaDB",
+        "React",
+        "Spring Batch",
+        "Spring Boot"
+      ],
+      "url": "https://www.jumpit.co.kr/position/54880338",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
+      "score": 55,
+      "reason": "백엔드/SW 개발 · 스택 1개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-54879679",
+      "source": "jumpit",
+      "title": "PBX 개발자 채용",
+      "company": "넥서스커뮤니티",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [
+        "C++",
+        "WebRTC"
+      ],
+      "url": "https://www.jumpit.co.kr/position/54879679",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
+      "score": 55,
+      "reason": "직무 미매칭 · 스택 5개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-54840431",
+      "source": "jumpit",
+      "title": "AA(Application Architect) 경력 채용",
+      "company": "엘아이지시스템",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [
+        "Azure DevOps",
+        "Spring",
+        "Spring Security",
+        "Azure DevOps Server"
+      ],
+      "url": "https://www.jumpit.co.kr/position/54840431",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
+      "score": 55,
+      "reason": "백엔드/SW 개발 · 스택 1개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -129,7 +188,7 @@
         "Scope"
       ],
       "url": "https://www.jumpit.co.kr/position/54877129",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 55,
       "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
@@ -153,7 +212,7 @@
         "Scope"
       ],
       "url": "https://www.jumpit.co.kr/position/54877159",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 55,
       "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
@@ -175,35 +234,29 @@
         "SW"
       ],
       "url": "https://www.jumpit.co.kr/position/54855095",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 55,
       "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
-      "id": "jumpit-54682351",
-      "source": "jumpit",
-      "title": "[강남구]임베디드 Embedded C++ 개발자 경력 채용/정규직/IT SW",
-      "company": "파더스랩",
-      "location": "서울 강남구",
+      "id": "peoplenjob-6249007",
+      "source": "peoplenjob",
+      "title": "26년 2기 교육생 모집(Salesforce, KT, CJ올리브네트웍스)",
+      "company": "대한상공회의소",
+      "location": "서울",
       "experience": "경력 무관",
       "stack": [
-        "Android OS",
-        "C",
-        "C++",
-        "Linux",
-        "Qt",
-        "Embedded",
-        "SW",
-        "Embedded Linux"
+        "Salesforce"
       ],
-      "url": "https://www.jumpit.co.kr/position/54682351",
-      "postedAt": "2026-08-29T05:15:49.898Z",
-      "deadline": "2026-09-05",
-      "score": 55,
-      "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
-      "flags": []
+      "url": "https://www.peoplenjob.com/jobs/6249007",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 50,
+      "reason": "직무 미매칭 · 스택 1개 일치 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
     },
     {
       "id": "jumpit-54883384",
@@ -216,7 +269,7 @@
         "Java"
       ],
       "url": "https://www.jumpit.co.kr/position/54883384",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:29.973Z",
       "deadline": "2026-09-26",
       "score": 47,
       "reason": "백엔드/SW 개발 · 스택 정보 부족 · 경력 신입/무관",
@@ -233,65 +286,14 @@
         "Java"
       ],
       "url": "https://www.jumpit.co.kr/position/54883375",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:29.973Z",
       "deadline": "2026-09-26",
       "score": 47,
       "reason": "백엔드/SW 개발 · 스택 정보 부족 · 경력 신입/무관",
       "flags": []
     },
     {
-      "id": "jumpit-54883360",
-      "source": "jumpit",
-      "title": "고급 백엔드 설계 개발자(10~12년)",
-      "company": "티투엘",
-      "location": "경기 고양시",
-      "experience": "경력 무관",
-      "stack": [
-        "Java"
-      ],
-      "url": "https://www.jumpit.co.kr/position/54883360",
-      "postedAt": "2026-08-29T05:15:36.266Z",
-      "deadline": "2026-09-26",
-      "score": 47,
-      "reason": "백엔드/SW 개발 · 스택 정보 부족 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-54883356",
-      "source": "jumpit",
-      "title": "중급 백엔드 개발자 (8~10년)",
-      "company": "티투엘",
-      "location": "경기 고양시",
-      "experience": "경력 무관",
-      "stack": [
-        "Java"
-      ],
-      "url": "https://www.jumpit.co.kr/position/54883356",
-      "postedAt": "2026-08-29T05:15:36.266Z",
-      "deadline": "2026-09-26",
-      "score": 47,
-      "reason": "백엔드/SW 개발 · 스택 정보 부족 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-54883352",
-      "source": "jumpit",
-      "title": "중급 백엔드 개발자 (5~7년)",
-      "company": "티투엘",
-      "location": "경기 고양시",
-      "experience": "경력 무관",
-      "stack": [
-        "Java"
-      ],
-      "url": "https://www.jumpit.co.kr/position/54883352",
-      "postedAt": "2026-08-29T05:15:49.898Z",
-      "deadline": "2026-09-26",
-      "score": 47,
-      "reason": "백엔드/SW 개발 · 스택 정보 부족 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-54673721",
+      "id": "jumpit-54883391",
       "source": "jumpit",
       "title": "S/W 소프트웨어 개발 (경력)",
       "company": "씨앤지 마이크로웨이브",
@@ -304,36 +306,480 @@
         "SW",
         "Vb.net"
       ],
-      "url": "https://www.jumpit.co.kr/position/54673721",
-      "postedAt": "2026-08-29T05:15:36.266Z",
-      "deadline": "2026-08-29",
+      "url": "https://www.jumpit.co.kr/position/54883391",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
       "score": 45,
       "reason": "직무 미매칭 · 스택 4개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
-      "id": "jumpit-54702660",
-      "source": "jumpit",
-      "title": "[대구] Embedded C++ 개발자 / Automotive SW / 경력 2년↑",
-      "company": "파더스랩",
-      "location": "대구 동구",
+      "id": "peoplenjob-6265339",
+      "source": "peoplenjob",
+      "title": "Installed Base Sales Specialist",
+      "company": "Accuray Korea",
+      "location": "서울",
       "experience": "경력 무관",
-      "stack": [
-        "Android OS",
-        "C",
-        "C++",
-        "Linux",
-        "Qt",
-        "Embedded",
-        "SW",
-        "Embedded Linux"
-      ],
-      "url": "https://www.jumpit.co.kr/position/54702660",
-      "postedAt": "2026-08-29T05:15:49.898Z",
-      "deadline": "2026-09-08",
-      "score": 45,
-      "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
-      "flags": []
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6265339",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6267030",
+      "source": "peoplenjob",
+      "title": "Customer Success / Solution Engineer",
+      "company": "Vibes Technology",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6267030",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6265274",
+      "source": "peoplenjob",
+      "title": "Sales Executive / Account Manager 채용",
+      "company": "센게이지러닝코리아(주)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6265274",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "non_tech",
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6266550",
+      "source": "peoplenjob",
+      "title": "Assistant Manager - Manager, STB Korea",
+      "company": "싱가포르관광청 (Singapore Tourism Board)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6266550",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6263939",
+      "source": "peoplenjob",
+      "title": "마케팅담당 경력 및 신입사원 모집",
+      "company": "Sohn's Market Makers",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6263939",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "non_tech",
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6269388",
+      "source": "peoplenjob",
+      "title": "VMD Specialist",
+      "company": "엘브이엠에치 코스메틱스",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6269388",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6268261",
+      "source": "peoplenjob",
+      "title": "Sr. Internal Control Specialist",
+      "company": "Swagelok Korea",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6268261",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6268008",
+      "source": "peoplenjob",
+      "title": "International 포워딩 경영지원업무 - 신입",
+      "company": "디웰그룹코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6268008",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6267802",
+      "source": "peoplenjob",
+      "title": "전기기사",
+      "company": "에넬엑스코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6267802",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6267705",
+      "source": "peoplenjob",
+      "title": "Sales Manager, Architecture and End Users, South Korea",
+      "company": "Kvadrat Korea",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6267705",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "non_tech",
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6266880",
+      "source": "peoplenjob",
+      "title": "Retail Operations Manager",
+      "company": "푸치코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6266880",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6265223",
+      "source": "peoplenjob",
+      "title": "세바코리아 HR Operation Specialist 계약직 채용 (TA Focused)",
+      "company": "CEVA Korea Co., Ltd.",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6265223",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6263287",
+      "source": "peoplenjob",
+      "title": "Outside Sales Representative",
+      "company": "Vadas International Korea LLC",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6263287",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6263291",
+      "source": "peoplenjob",
+      "title": "Customer Success Manager - Quality - Korea",
+      "company": "Veeva Systems Korea YH",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6263291",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270550",
+      "source": "peoplenjob",
+      "title": "제약의사, Medical Advisor   - 글로벌제약사",
+      "company": "피플워크(주)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270550",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270461",
+      "source": "peoplenjob",
+      "title": "05. Tax & Customs Professional [외국계/automotive]",
+      "company": "베스트네트워크(주)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270461",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270463",
+      "source": "peoplenjob",
+      "title": "37. Tax Specialist [글로벌 럭셔리]",
+      "company": "베스트네트워크(주)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270463",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270430",
+      "source": "peoplenjob",
+      "title": "Cell bio 기술영업/ 외국계. 서울",
+      "company": "(주)스카우트",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270430",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270129",
+      "source": "peoplenjob",
+      "title": "Financial Services & Insurance Manager",
+      "company": "(주)핀커스코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270129",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6270015",
+      "source": "peoplenjob",
+      "title": "Top-tier금융사 자금세탁방지 차-부장급 포지션",
+      "company": "Prosearch Korea Inc.",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6270015",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6269783",
+      "source": "peoplenjob",
+      "title": "브랜드 매니저(주임~대리급)",
+      "company": "에임즈인터내셔널코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6269783",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6269454",
+      "source": "peoplenjob",
+      "title": "(Sr.) Merchandising Manager  - 유명외국계 명품회사",
+      "company": "피플워크(주)",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6269454",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6269106",
+      "source": "peoplenjob",
+      "title": "해외 유명 워치쥬얼리 브랜드/ Assistant Marketing and Merchandising Manager (과장급)",
+      "company": "나우베스트 코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6269106",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6269358",
+      "source": "peoplenjob",
+      "title": "인사기획 (5-12년)",
+      "company": "(주)핀커스코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6269358",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6268280",
+      "source": "peoplenjob",
+      "title": "해외 유명 워치쥬얼리 브랜드/ Accountant (1년 계약직, AR 담당자)",
+      "company": "나우베스트 코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6268280",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6267848",
+      "source": "peoplenjob",
+      "title": "영업팀장 (디스플레이장비)",
+      "company": "에임즈인터내셔널코리아",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6267848",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "non_tech",
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6266312",
+      "source": "peoplenjob",
+      "title": "Product Marketing & Commercialization - 외국계 산업용 케이블 제조사",
+      "company": "맨파워써치앤컨설팅",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6266312",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6266300",
+      "source": "peoplenjob",
+      "title": "유명 명품 브랜드 E-Commerce Assistant Manager",
+      "company": "HRagent",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6266300",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
+    },
+    {
+      "id": "peoplenjob-6266055",
+      "source": "peoplenjob",
+      "title": "외국계 유명 Fashion Brand Retail Performance Specialist",
+      "company": "HRagent",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [],
+      "url": "https://www.peoplenjob.com/jobs/6266055",
+      "postedAt": "2026-08-30T03:08:20.933Z",
+      "score": 42,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
+      "flags": [
+        "english_plus"
+      ]
     },
     {
       "id": "jumpit-54879652",
@@ -346,10 +792,29 @@
         "Azure DevOps"
       ],
       "url": "https://www.jumpit.co.kr/position/54879652",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 40,
       "reason": "직무 미매칭 · 스택 1개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-54840460",
+      "source": "jumpit",
+      "title": "TA(Techical Achitect) 경력 채용",
+      "company": "엘아이지시스템",
+      "location": "서울",
+      "experience": "경력 무관",
+      "stack": [
+        "Linux",
+        "Windows",
+        "Utm"
+      ],
+      "url": "https://www.jumpit.co.kr/position/54840460",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
+      "score": 32,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -364,7 +829,7 @@
         "CPPG"
       ],
       "url": "https://www.jumpit.co.kr/position/54879661",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 32,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관",
@@ -382,10 +847,30 @@
         "CPPG"
       ],
       "url": "https://www.jumpit.co.kr/position/54879667",
-      "postedAt": "2026-08-29T05:15:36.266Z",
+      "postedAt": "2026-08-30T03:08:17.321Z",
       "deadline": "2026-09-27",
       "score": 32,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-54883340",
+      "source": "jumpit",
+      "title": "S/W 소프트웨어 설계 (경력)",
+      "company": "씨앤지 마이크로웨이브",
+      "location": "대전",
+      "experience": "경력 무관",
+      "stack": [
+        "Linux",
+        "SW",
+        "MCU",
+        "ARM"
+      ],
+      "url": "https://www.jumpit.co.kr/position/54883340",
+      "postedAt": "2026-08-30T03:08:17.321Z",
+      "deadline": "2026-09-28",
+      "score": 30,
+      "reason": "직무 미매칭 · 스택 1개 일치 · 경력 신입/무관",
       "flags": []
     }
   ]

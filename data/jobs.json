@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:11:31.836Z",
+  "updatedAt": "2026-10-10T03:56:32.502Z",
   "jobs": [
     {
       "id": "jumpit-55241314",
@@ -21,31 +21,10 @@
         "Transformers"
       ],
       "url": "https://www.jumpit.co.kr/position/55241314",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-07",
       "score": 90,
       "reason": "DS/ML 핵심 직무 · 스택 11개 일치 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-55241504",
-      "source": "jumpit",
-      "title": "[전문연구요원 가능] 딥러닝 리서치 엔지니어",
-      "company": "아이벡스",
-      "location": "서울 서초구",
-      "experience": "경력 무관",
-      "stack": [
-        "Git",
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "OpenCV"
-      ],
-      "url": "https://www.jumpit.co.kr/position/55241504",
-      "postedAt": "2026-10-09T04:10:14.961Z",
-      "deadline": "2026-11-06",
-      "score": 90,
-      "reason": "DS/ML 핵심 직무 · 스택 4개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -68,7 +47,7 @@
         "pnpm"
       ],
       "url": "https://www.jumpit.co.kr/position/55242853",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 83,
       "reason": "DS/ML 핵심 직무 · 스택 2개 일치 · 경력 신입/무관",
@@ -94,7 +73,7 @@
         "pnpm"
       ],
       "url": "https://www.jumpit.co.kr/position/55242888",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 83,
       "reason": "DS/ML 핵심 직무 · 스택 2개 일치 · 경력 신입/무관",
@@ -115,7 +94,7 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/55192577",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-07",
       "score": 73,
       "reason": "데이터 분석/엔지니어 · 스택 2개 일치 · 경력 신입/무관",
@@ -141,33 +120,7 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/55242834",
-      "postedAt": "2026-10-09T04:10:14.961Z",
-      "deadline": "2026-11-06",
-      "score": 70,
-      "reason": "백엔드/SW 개발 · 스택 6개 일치 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-55240979",
-      "source": "jumpit",
-      "title": "제어SW 엔지니어",
-      "company": "아이벡스",
-      "location": "서울 서초구",
-      "experience": "경력 무관",
-      "stack": [
-        "C++",
-        "Git",
-        "Python",
-        "Bitbucket",
-        "Bitbucket Pipelines",
-        "Node.js",
-        "TypeScript",
-        "Windows",
-        "TCP/IP",
-        "Modulus"
-      ],
-      "url": "https://www.jumpit.co.kr/position/55240979",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 70,
       "reason": "백엔드/SW 개발 · 스택 6개 일치 · 경력 신입/무관",
@@ -193,10 +146,31 @@
         "Zustand"
       ],
       "url": "https://www.jumpit.co.kr/position/55242726",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 65,
       "reason": "데이터 분석/엔지니어 · 스택 1개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-55242293",
+      "source": "jumpit",
+      "title": "쇼핑몰/헬스케어 서비스 개발자",
+      "company": "보미오라한의원",
+      "location": "서울 강남구",
+      "experience": "경력 무관",
+      "stack": [
+        "CSS 3",
+        "HTML5",
+        "JavaScript",
+        "Node.js",
+        "PHP"
+      ],
+      "url": "https://www.jumpit.co.kr/position/55242293",
+      "postedAt": "2026-10-10T03:55:16.416Z",
+      "deadline": "2026-11-08",
+      "score": 63,
+      "reason": "백엔드/SW 개발 · 스택 2개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -214,7 +188,7 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/55222901",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-07",
       "score": 63,
       "reason": "백엔드/SW 개발 · 스택 2개 일치 · 경력 신입/무관",
@@ -235,7 +209,7 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/55222889",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-07",
       "score": 63,
       "reason": "백엔드/SW 개발 · 스택 2개 일치 · 경력 신입/무관",
@@ -261,36 +235,33 @@
         "AWS"
       ],
       "url": "https://www.jumpit.co.kr/position/55242731",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 63,
       "reason": "백엔드/SW 개발 · 스택 2개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
-      "id": "jumpit-55242552",
+      "id": "jumpit-55241843",
       "source": "jumpit",
-      "title": "자율주행로봇 관제시스템 백엔드(서울)",
-      "company": "폴라리스쓰리디",
-      "location": "서울 구로구",
+      "title": "시스템개발팀 경력 모집",
+      "company": "삼지전자",
+      "location": "경기 화성시 동탄구",
       "experience": "경력 무관",
       "stack": [
-        "Docker",
-        "Git",
-        "Java",
-        "MySQL",
-        "PostgreSQL",
-        "React",
-        "Spring Boot",
-        "Vue.js",
-        "REST API",
-        "AWS"
+        "C",
+        "C++",
+        "MATLAB",
+        "Python",
+        "RF",
+        "Verilog",
+        "VHDL"
       ],
-      "url": "https://www.jumpit.co.kr/position/55242552",
-      "postedAt": "2026-10-09T04:10:14.961Z",
-      "deadline": "2026-11-06",
-      "score": 63,
-      "reason": "백엔드/SW 개발 · 스택 2개 일치 · 경력 신입/무관",
+      "url": "https://www.jumpit.co.kr/position/55241843",
+      "postedAt": "2026-10-10T03:55:16.415Z",
+      "deadline": "2026-11-08",
+      "score": 55,
+      "reason": "직무 미매칭 · 스택 8개 일치 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -310,7 +281,7 @@
         "HALCON"
       ],
       "url": "https://www.jumpit.co.kr/position/55242778",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 55,
       "reason": "직무 미매칭 · 스택 5개 일치 · 경력 신입/무관",
@@ -336,29 +307,7 @@
         "Robolectric"
       ],
       "url": "https://www.jumpit.co.kr/position/55242763",
-      "postedAt": "2026-10-09T04:10:14.961Z",
-      "deadline": "2026-11-06",
-      "score": 55,
-      "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
-      "flags": []
-    },
-    {
-      "id": "jumpit-55241478",
-      "source": "jumpit",
-      "title": "[전문연구요원] 로봇 시스템 비전 소프트웨어 엔지니어",
-      "company": "아이벡스",
-      "location": "서울 서초구",
-      "experience": "경력 무관",
-      "stack": [
-        "C++",
-        "Docker",
-        "Git",
-        "Python",
-        "Ubuntu",
-        "OpenCV"
-      ],
-      "url": "https://www.jumpit.co.kr/position/55241478",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-06",
       "score": 55,
       "reason": "직무 미매칭 · 스택 6개 일치 · 경력 신입/무관",
@@ -373,21 +322,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50027207",
-      "postedAt": "2026-10-09T04:10:15.831Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50026112",
-      "source": "jobkorea",
-      "title": "[메타엠]AICC 전략본부 Data Scientist 채용",
-      "company": "㈜메타엠",
-      "location": "",
-      "experience": "서울 강남구",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50026112",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.770Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -401,21 +336,35 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50044695",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
     },
     {
-      "id": "jobkorea-50107450",
+      "id": "jobkorea-50026112",
       "source": "jobkorea",
-      "title": "[데이터 사이언티스트] 데이터 분석 채용",
-      "company": "㈜화이트스캔",
+      "title": "[메타엠]AICC 전략본부 Data Scientist 채용",
+      "company": "㈜메타엠",
       "location": "",
-      "experience": "서울 용산구",
+      "experience": "서울 강남구",
       "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50107450",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50026112",
+      "postedAt": "2026-10-10T03:55:16.771Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50137779",
+      "source": "jobkorea",
+      "title": "[경력3년이상] 데이터 사이언티스트 채용",
+      "company": "㈜예진",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50137779",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -429,7 +378,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50065250",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -443,7 +392,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50063641",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -459,7 +408,7 @@
         "LLM"
       ],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49848941",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -473,7 +422,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50057387",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -487,49 +436,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50028292",
-      "postedAt": "2026-10-09T04:10:15.832Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49937078",
-      "source": "jobkorea",
-      "title": "[젯스퍼트]AI 모델 운영 및 데이터 사이언티스트",
-      "company": "젯스퍼트㈜",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49937078",
-      "postedAt": "2026-10-09T04:10:15.832Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49959982",
-      "source": "jobkorea",
-      "title": "[경력] 데이터 사이언티스트를 찾습니다.(분석·온톨로지)",
-      "company": "㈜퀀텀씨엔에스",
-      "location": "",
-      "experience": "서울 구로구",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49959982",
-      "postedAt": "2026-10-09T04:10:15.832Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49850070",
-      "source": "jobkorea",
-      "title": "[비알피커넥트]  데이터 사이언티스트",
-      "company": "㈜바로팜",
-      "location": "㈜바로팜",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49850070",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -543,7 +450,49 @@
       "experience": "서울 구로구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49923954",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49937078",
+      "source": "jobkorea",
+      "title": "[젯스퍼트]AI 모델 운영 및 데이터 사이언티스트",
+      "company": "젯스퍼트㈜",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49937078",
+      "postedAt": "2026-10-10T03:55:16.771Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49959982",
+      "source": "jobkorea",
+      "title": "[경력] 데이터 사이언티스트를 찾습니다.(분석·온톨로지)",
+      "company": "㈜퀀텀씨엔에스",
+      "location": "",
+      "experience": "서울 구로구",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49959982",
+      "postedAt": "2026-10-10T03:55:16.771Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49850070",
+      "source": "jobkorea",
+      "title": "[비알피커넥트]  데이터 사이언티스트",
+      "company": "㈜바로팜",
+      "location": "㈜바로팜",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49850070",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -557,7 +506,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50012226",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -571,7 +520,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50020655",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -585,7 +534,7 @@
       "experience": "경기 성남시 외 5",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50093789",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -599,7 +548,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50082875",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -613,7 +562,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49870572",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -627,21 +576,7 @@
       "experience": "서울 강서구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49838426",
-      "postedAt": "2026-10-09T04:10:23.256Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49751289",
-      "source": "jobkorea",
-      "title": "[모다플]머신러닝 엔지니어(3년이상)",
-      "company": "㈜모다플",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49751289",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -655,21 +590,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50068285",
-      "postedAt": "2026-10-09T04:10:23.256Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50077491",
-      "source": "jobkorea",
-      "title": "AI/ML 엔지니어",
-      "company": "㈜비상교육",
-      "location": "",
-      "experience": "경기 과천시",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50077491",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -683,35 +604,7 @@
       "experience": "경기 과천시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50028923",
-      "postedAt": "2026-10-09T04:10:23.256Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50116446",
-      "source": "jobkorea",
-      "title": "ML(머신러닝)엔지니어 전문연구요원신규/전직",
-      "company": "로민",
-      "location": "로민",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50116446",
-      "postedAt": "2026-10-09T04:10:23.256Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50085772",
-      "source": "jobkorea",
-      "title": "AI / ML 엔지니어",
-      "company": "주식회사 루모스",
-      "location": "주식회사 루모스",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50085772",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -725,7 +618,35 @@
       "experience": "서울 관악구 외 1",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49971342",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50116446",
+      "source": "jobkorea",
+      "title": "ML(머신러닝)엔지니어 전문연구요원신규/전직",
+      "company": "로민",
+      "location": "로민",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50116446",
+      "postedAt": "2026-10-10T03:55:23.346Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50085772",
+      "source": "jobkorea",
+      "title": "AI / ML 엔지니어",
+      "company": "주식회사 루모스",
+      "location": "주식회사 루모스",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50085772",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -739,7 +660,7 @@
       "experience": "서울 강서구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50117950",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -753,21 +674,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50032948",
-      "postedAt": "2026-10-09T04:10:23.256Z",
-      "score": 51,
-      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49755508",
-      "source": "jobkorea",
-      "title": "[경력] AI/ML Engineer",
-      "company": "카카오헬스케어",
-      "location": "",
-      "experience": "경기 성남시",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49755508",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -781,7 +688,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074665",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -795,7 +702,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49983389",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -809,7 +716,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49990360",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -823,7 +730,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50126294",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -837,7 +744,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49962906",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -851,492 +758,75 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50090625",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 51,
       "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
       "flags": []
     },
     {
-      "id": "peoplenjob-6295740",
-      "source": "peoplenjob",
-      "title": "차병원·차바이오그룹 임원·교수·연구원 초빙",
-      "company": "차병원·바이오그룹",
-      "location": "서울",
-      "experience": "경력 무관",
+      "id": "jobkorea-49941576",
+      "source": "jobkorea",
+      "title": "[격주 4.5일] 아이나비 머신러닝 기반 ADAS 영상 처리 개발 (경력)",
+      "company": "팅크웨어㈜",
+      "location": "",
+      "experience": "경기 성남시",
       "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295740",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49941576",
+      "postedAt": "2026-10-10T03:55:23.346Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
     },
     {
-      "id": "peoplenjob-6295090",
-      "source": "peoplenjob",
-      "title": "글로벌 리테일 마케팅 인턴 채용",
-      "company": "celimax",
-      "location": "서울",
-      "experience": "경력 무관",
+      "id": "jobkorea-50105398",
+      "source": "jobkorea",
+      "title": "AI/ML 엔지니어 채용",
+      "company": "㈜에스엘즈",
+      "location": "",
+      "experience": "",
       "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295090",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50105398",
+      "postedAt": "2026-10-10T03:55:23.346Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
     },
     {
-      "id": "peoplenjob-6292475",
-      "source": "peoplenjob",
-      "title": "QA Manager",
-      "company": "Santen Pharmaceutical Korea",
-      "location": "서울",
-      "experience": "경력 무관",
+      "id": "jobkorea-49915220",
+      "source": "jobkorea",
+      "title": "[AD-Tech] 머신러닝 엔지니어(2-6년)",
+      "company": "슈퍼센트㈜",
+      "location": "슈퍼센트㈜",
+      "experience": "",
       "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6292475",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49915220",
+      "postedAt": "2026-10-10T03:55:23.346Z",
+      "score": 51,
+      "reason": "DS/ML 핵심 직무 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
     },
     {
-      "id": "peoplenjob-6292148",
-      "source": "peoplenjob",
-      "title": "2026 차병원·차바이오그룹 신입/Junior 공채",
-      "company": "차병원·바이오그룹",
-      "location": "서울",
+      "id": "jumpit-55224883",
+      "source": "jumpit",
+      "title": "[중견 계열사] 시스템 엔지니어",
+      "company": "우리엔",
+      "location": "경기 화성시",
       "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6292148",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6290804",
-      "source": "peoplenjob",
-      "title": "B2B Sales Rep.",
-      "company": "Targus",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6290804",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6291425",
-      "source": "peoplenjob",
-      "title": "Marketing Assistant",
-      "company": "MDPI Korea",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6291425",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "non_tech",
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6291274",
-      "source": "peoplenjob",
-      "title": "Marketing Specialist / Assistant – External Affairs (Public Affairs)",
-      "company": "MDPI Korea",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6291274",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "non_tech",
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6283878",
-      "source": "peoplenjob",
-      "title": "미 국무부 Fulbright 장학 프로그램 담당자 (Assistant Program Officer)",
-      "company": "한미교육위원단",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6283878",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6282307",
-      "source": "peoplenjob",
-      "title": "Sr. Biopharmaceutical Rep, bone",
-      "company": "Amgen Korea",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6282307",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6277638",
-      "source": "peoplenjob",
-      "title": "26년 3기 교육생 모집(Microsoft, Oracle, NVIDIA)",
-      "company": "대한상공회의소",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6277638",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6295619",
-      "source": "peoplenjob",
-      "title": "엔지니어 인재풀에 등록하세요!",
-      "company": "Air Liquide Korea",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295619",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6295284",
-      "source": "peoplenjob",
-      "title": "Product Manager (Japan)",
-      "company": "Rakuten Symphony Korea",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295284",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294775",
-      "source": "peoplenjob",
-      "title": "입제 혼합라인 지원 (대전공장, 2+3개월 계약직)",
-      "company": "바이엘코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294775",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6295026",
-      "source": "peoplenjob",
-      "title": "Department Manager 채용 - 수원점",
-      "company": "주식회사 데카트론코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295026",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294214",
-      "source": "peoplenjob",
-      "title": "Samsonite KLP-Merchandising Coordinator(사원)계약직",
-      "company": "Samsonite Korea Ltd",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294214",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6296084",
-      "source": "peoplenjob",
-      "title": "외국계 IT컨설팅사 미들웨어 엔지니어 리드",
-      "company": "(주)스카우트",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6296084",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6295996",
-      "source": "peoplenjob",
-      "title": "임상전략 -  글로벌바이오의약품사",
-      "company": "피플워크(주)",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295996",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6295988",
-      "source": "peoplenjob",
-      "title": "Account Manager –  Global Medical Technology Company",
-      "company": "피플워크(주)",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6295988",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294796",
-      "source": "peoplenjob",
-      "title": "Private Client Director",
-      "company": "맨파워써치앤컨설팅",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294796",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294739",
-      "source": "peoplenjob",
-      "title": "Global Top Street Brand / Apparel Designer",
-      "company": "HRagent",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294739",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294700",
-      "source": "peoplenjob",
-      "title": "37. Total Rewards Professional [글로벌 럭셔리 그룹]",
-      "company": "베스트네트워크(주)",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294700",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294418",
-      "source": "peoplenjob",
-      "title": "무역영업 팀장급, 서울",
-      "company": "(주)스카우트",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294418",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6294258",
-      "source": "peoplenjob",
-      "title": "유명 명품 브랜드 Planning & Allocation Manager",
-      "company": "HRagent",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6294258",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6293669",
-      "source": "peoplenjob",
-      "title": "38. Brand Director [글로벌 프리미엄 뷰티 브랜드]",
-      "company": "베스트네트워크(주)",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6293669",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6293953",
-      "source": "peoplenjob",
-      "title": "Executive Assistant (계약직)",
-      "company": "(주)핀커스코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6293953",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6293540",
-      "source": "peoplenjob",
-      "title": "PR Manager (과차장급)",
-      "company": "(주)핀커스코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6293540",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6292892",
-      "source": "peoplenjob",
-      "title": "산업용 밸브 제조사 제조원가 회계 경력직 채용",
-      "company": "(주)커리어앤스카우트",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6292892",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6292216",
-      "source": "peoplenjob",
-      "title": "CRM Project Manager 채용",
-      "company": "아데코코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6292216",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6291521",
-      "source": "peoplenjob",
-      "title": "글로벌 코스메틱 기업_ Brand Marketing Specialist",
-      "company": "나우베스트 코리아",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6291521",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
-    },
-    {
-      "id": "peoplenjob-6290762",
-      "source": "peoplenjob",
-      "title": "Technical Support-임상병리사 가능/정규직/서울",
-      "company": "맨파워써치앤컨설팅",
-      "location": "서울",
-      "experience": "경력 무관",
-      "stack": [],
-      "url": "https://www.peoplenjob.com/jobs/6290762",
-      "postedAt": "2026-10-09T04:10:16.302Z",
-      "score": 42,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관 · 영어 가점",
-      "flags": [
-        "english_plus"
-      ]
+      "stack": [
+        "Amazon CloudWatch",
+        "Amazon EC2",
+        "Amazon EKS",
+        "Amazon VPC",
+        "Docker",
+        "MySQL",
+        "Autocad"
+      ],
+      "url": "https://www.jumpit.co.kr/position/55224883",
+      "postedAt": "2026-10-10T03:55:16.416Z",
+      "deadline": "2026-11-08",
+      "score": 48,
+      "reason": "직무 미매칭 · 스택 2개 일치 · 경력 신입/무관",
+      "flags": []
     },
     {
       "id": "jobkorea-49927949",
@@ -1347,7 +837,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49927949",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1361,7 +851,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50070851",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1375,7 +865,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50004599",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1389,7 +879,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50077220",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1400,10 +890,10 @@
       "title": "커머스 데이터 분석가",
       "company": "뉴셀렉트㈜",
       "location": "",
-      "experience": "",
+      "experience": "서울 성동구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49765027",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1417,21 +907,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49860276",
-      "postedAt": "2026-10-09T04:10:19.741Z",
-      "score": 41,
-      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50004505",
-      "source": "jobkorea",
-      "title": "[Mnet Plus] Data Analyst",
-      "company": "CJ ENMCJ그룹",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50004505",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1445,21 +921,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50126553",
-      "postedAt": "2026-10-09T04:10:19.741Z",
-      "score": 41,
-      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50001006",
-      "source": "jobkorea",
-      "title": "데이터 분석가 모집",
-      "company": "㈜에이엔게임즈",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50001006",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1473,7 +935,35 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50036527",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
+      "score": 41,
+      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50004505",
+      "source": "jobkorea",
+      "title": "[Mnet Plus] Data Analyst",
+      "company": "CJ ENMCJ그룹",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50004505",
+      "postedAt": "2026-10-10T03:55:19.962Z",
+      "score": 41,
+      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50001006",
+      "source": "jobkorea",
+      "title": "데이터 분석가 모집",
+      "company": "㈜에이엔게임즈",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50001006",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1487,7 +977,7 @@
       "experience": "서울 송파구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49985922",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1501,7 +991,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061061",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1515,7 +1005,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50045127",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1529,7 +1019,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50030680",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1543,7 +1033,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50030499",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1557,7 +1047,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49965992",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1571,7 +1061,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49994288",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1585,7 +1075,7 @@
       "experience": "경기 용인시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49945988",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1599,7 +1089,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50072491",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1613,7 +1103,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50061768",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1627,7 +1117,7 @@
       "experience": "서울 중구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49947457",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1641,7 +1131,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50038225",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1655,7 +1145,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50040821",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1669,7 +1159,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50018887",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1683,7 +1173,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49965675",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1697,7 +1187,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50063598",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1711,7 +1201,7 @@
       "experience": "경기 성남시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49874788",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1725,7 +1215,7 @@
       "experience": "서울 송파구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50057653",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1739,7 +1229,7 @@
       "experience": "서울 구로구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49810438",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1753,7 +1243,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50007786",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1767,7 +1257,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49936215",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1781,7 +1271,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50098912",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1795,7 +1285,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49998688",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1809,21 +1299,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50098954",
-      "postedAt": "2026-10-09T04:10:26.640Z",
-      "score": 41,
-      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50042223",
-      "source": "jobkorea",
-      "title": "[기어세컨드] 데이터 엔지니어(DE)",
-      "company": "㈜기어세컨드",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50042223",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1837,35 +1313,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50071891",
-      "postedAt": "2026-10-09T04:10:26.640Z",
-      "score": 41,
-      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49961142",
-      "source": "jobkorea",
-      "title": "[CJ그룹-디엑스이] AI/AX 플랫폼 개발 백엔드/데이터 엔지니어 경력채용",
-      "company": "㈜디엑스이CJ그룹",
-      "location": "CJ그룹",
-      "experience": "서울 중구",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49961142",
-      "postedAt": "2026-10-09T04:10:26.640Z",
-      "score": 41,
-      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49900893",
-      "source": "jobkorea",
-      "title": "제조 데이터 엔지니어",
-      "company": "㈜에이아이빌",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49900893",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1879,7 +1327,49 @@
       "experience": "서울 구로구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49853010",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
+      "score": 41,
+      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50042223",
+      "source": "jobkorea",
+      "title": "[기어세컨드] 데이터 엔지니어(DE)",
+      "company": "㈜기어세컨드",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50042223",
+      "postedAt": "2026-10-10T03:55:27.200Z",
+      "score": 41,
+      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49900893",
+      "source": "jobkorea",
+      "title": "제조 데이터 엔지니어",
+      "company": "㈜에이아이빌",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49900893",
+      "postedAt": "2026-10-10T03:55:27.200Z",
+      "score": 41,
+      "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49962151",
+      "source": "jobkorea",
+      "title": "[NHN PAYCO] 데이터 엔지니어",
+      "company": "엔에이치엔페이코㈜",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49962151",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1893,7 +1383,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50041227",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 41,
       "reason": "데이터 분석/엔지니어 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1912,10 +1402,29 @@
         "vmware"
       ],
       "url": "https://www.jumpit.co.kr/position/55185856",
-      "postedAt": "2026-10-09T04:10:14.961Z",
+      "postedAt": "2026-10-10T03:55:16.416Z",
       "deadline": "2026-11-07",
       "score": 40,
       "reason": "직무 미매칭 · 스택 1개 일치 · 경력 신입/무관",
+      "flags": []
+    },
+    {
+      "id": "jumpit-55242282",
+      "source": "jumpit",
+      "title": "네트워크 엔지니어 채용",
+      "company": "커넥트정보",
+      "location": "서울 강서구",
+      "experience": "경력 무관",
+      "stack": [
+        "L2",
+        "L3",
+        "Ccnp"
+      ],
+      "url": "https://www.jumpit.co.kr/position/55242282",
+      "postedAt": "2026-10-10T03:55:16.416Z",
+      "deadline": "2026-11-08",
+      "score": 32,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 신입/무관",
       "flags": []
     },
     {
@@ -1927,7 +1436,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50048516",
-      "postedAt": "2026-10-09T04:10:26.640Z",
+      "postedAt": "2026-10-10T03:55:27.200Z",
       "score": 24,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확 · 영어 가점",
       "flags": [
@@ -1943,7 +1452,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50013274",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 24,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확 · 영어 가점",
       "flags": [
@@ -1959,7 +1468,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50039743",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 24,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확 · 영어 가점",
       "flags": [
@@ -1975,7 +1484,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50137613",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -1989,7 +1498,7 @@
       "experience": "전남광주 북구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50123700",
-      "postedAt": "2026-10-09T04:10:15.831Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2003,21 +1512,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50123104",
-      "postedAt": "2026-10-09T04:10:15.832Z",
-      "score": 16,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49891193",
-      "source": "jobkorea",
-      "title": "㈜파트리지시스템즈",
-      "company": "",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49891193",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2031,7 +1526,21 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50122471",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
+      "score": 16,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-49891193",
+      "source": "jobkorea",
+      "title": "㈜파트리지시스템즈",
+      "company": "",
+      "location": "",
+      "experience": "",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49891193",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2045,21 +1554,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50070622",
-      "postedAt": "2026-10-09T04:10:15.832Z",
-      "score": 16,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-50044632",
-      "source": "jobkorea",
-      "title": "2026 하반기 경력 채용",
-      "company": "현대케피코현대자동차그룹",
-      "location": "",
-      "experience": "",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50044632",
-      "postedAt": "2026-10-09T04:10:15.832Z",
+      "postedAt": "2026-10-10T03:55:16.771Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2073,7 +1568,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49972418",
-      "postedAt": "2026-10-09T04:10:19.741Z",
+      "postedAt": "2026-10-10T03:55:19.962Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2084,10 +1579,10 @@
       "title": "시니어 AI/ML 연구원 모집",
       "company": "㈜시옷",
       "location": "",
-      "experience": "",
+      "experience": "서울 서초구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49968920",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2101,7 +1596,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49787623",
-      "postedAt": "2026-10-09T04:10:23.256Z",
+      "postedAt": "2026-10-10T03:55:23.346Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2115,7 +1610,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49966183",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2129,7 +1624,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50101361",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2143,7 +1638,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50101537",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2157,7 +1652,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50101488",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2171,7 +1666,7 @@
       "experience": "대전 중구 외 5",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074219",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2185,7 +1680,7 @@
       "experience": "부산 사상구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50137028",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2199,7 +1694,7 @@
       "experience": "대전 중구 외 5",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50132051",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2213,7 +1708,7 @@
       "experience": "부산 사상구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50077068",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2227,7 +1722,7 @@
       "experience": "부산 사상구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50057733",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2241,7 +1736,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50004260",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2255,7 +1750,7 @@
       "experience": "경기 안성시 외 14",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50026079",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2269,7 +1764,7 @@
       "experience": "서울 금천구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50134723",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2283,7 +1778,7 @@
       "experience": "대구 동구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50087705",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2297,7 +1792,7 @@
       "experience": "서울 영등포구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49993478",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2311,7 +1806,7 @@
       "experience": "전남광주 서구 외 5",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49997163",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2325,7 +1820,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716585",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2339,7 +1834,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49688936",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2353,7 +1848,7 @@
       "experience": "서울 성동구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50078923",
-      "postedAt": "2026-10-09T04:10:30.555Z",
+      "postedAt": "2026-10-10T03:55:30.489Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2367,7 +1862,7 @@
       "experience": "서울 서초구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50068933",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2381,7 +1876,7 @@
       "experience": "서울 서초구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50069600",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2395,7 +1890,7 @@
       "experience": "서울 서초구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50069196",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2409,7 +1904,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50086178",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2423,21 +1918,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49982189",
-      "postedAt": "2026-10-09T04:10:34.447Z",
-      "score": 16,
-      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
-      "flags": []
-    },
-    {
-      "id": "jobkorea-49750735",
-      "source": "jobkorea",
-      "title": "구매기획 담당자",
-      "company": "㈜서브원",
-      "location": "",
-      "experience": "서울 종로구",
-      "stack": [],
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49750735",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2451,7 +1932,7 @@
       "experience": "서울 송파구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50111379",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2467,7 +1948,7 @@
         "AWS"
       ],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50030532",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2481,7 +1962,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50080232",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.318Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2495,7 +1976,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50086164",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2509,7 +1990,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49965819",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2523,7 +2004,7 @@
       "experience": "서울 강남구",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49821761",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2537,7 +2018,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50080351",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2551,7 +2032,7 @@
       "experience": "경기 용인시",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49762554",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2565,7 +2046,7 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50059348",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
@@ -2579,7 +2060,21 @@
       "experience": "",
       "stack": [],
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50137421",
-      "postedAt": "2026-10-09T04:10:34.447Z",
+      "postedAt": "2026-10-10T03:55:34.319Z",
+      "score": 16,
+      "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
+      "flags": []
+    },
+    {
+      "id": "jobkorea-50083808",
+      "source": "jobkorea",
+      "title": "[DB Inc.] 인프라 ITO 운영 인력 채용(Windows 운영)",
+      "company": "㈜디비아이엔씨DB그룹",
+      "location": "DB그룹",
+      "experience": "경기 고양시",
+      "stack": [],
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50083808",
+      "postedAt": "2026-10-10T03:55:34.319Z",
       "score": 16,
       "reason": "직무 미매칭 · 스택 정보 부족 · 경력 불명확",
       "flags": []
